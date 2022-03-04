@@ -1,0 +1,24 @@
+.keyboard {
+    display: flex;
+    width: 100vw;
+    height: 30vh;
+    flex-direction:column;
+    gap: 6px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.keyboard button {
+    width: 42px;
+    height: 58px;
+    background-color: #818384;
+    color: white;
+    border-radius: 5%;
+    border: 0;
+}
+
+.keyboard div {
+    gap: inherit;
+    display: inherit;
+}

@@ -7,6 +7,7 @@
 ul li {
     width: 65px;
     height: 65px;
-    border: 1px grey;
-    background-color: white;
+    background-color: #121213;
+    border: 2px solid #3a3a3c;
 }
+
