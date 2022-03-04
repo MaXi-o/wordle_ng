@@ -9,6 +9,7 @@ import { TilesComponent } from './tiles/tiles.component';
 import { TileCollectionComponent } from './tile-collection/tile-collection.component';
 import { KeyboardComponent } from './keyboard/keyboard.component';
 
+import { MainComponent } from './main/main.component';
 
 
 @NgModule({
@@ -19,6 +20,7 @@ import { KeyboardComponent } from './keyboard/keyboard.component';
     TilesComponent,
     TileCollectionComponent,
     KeyboardComponent,
+    MainComponent,
   ],
   imports: [
     BrowserModule,
