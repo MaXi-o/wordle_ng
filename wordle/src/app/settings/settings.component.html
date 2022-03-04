@@ -1,28 +1,35 @@
-<header><h2>Settings</h2></header>
-  <div class="container">
-    <div class="setting">
-      <div class="text">
-        <div class="title">Themes</div>
-        <div class="description">This changes the look of the website</div>
-      </div>
+<app-header></app-header>
+<h2>Settings</h2>
+<div class="container">
+  <div class="setting">
+    <div class="text">
+      <div class="title">Themes</div>
+      <div class="description">This changes the look of the website</div>
     </div>
-    <div class="setting">
-      <div class="text">
-        <div class="title">Language</div>
-        <div class="description">
-          This changes the language of the game. This is a great way to create
-          some vaority within the game.
-        </div>
+  </div>
+  <div class="setting">
+    <div class="text">
+      <div class="title">Language</div>
+      <div class="description">
+        This changes the language of the game. This is a great way to create
+        some vaority within the game.
+      </div>
+      <div class="flags-div">
         <span class="fi fi-se"></span>
+        <span class="fi fi-gb"></span>
       </div>
     </div>
-    <div class="setting">
-      <div class="text">
-        <div class="title">Length</div>
-        <div class="description">
-          This change the length of the word to guess. Setting this higher makes
-          the game harder.
-        </div>
+  </div>
+  <div class="setting">
+    <div class="text">
+      <div class="title">Length</div>
+      <div class="description">
+        This change the length of the word to guess. Setting this higher makes
+        the game harder.
+      </div>
+      <div class="slidecontainer">
+        <input type="range" min="3" max="10" class="slider" id="myRange">
       </div>
     </div>
-   </div>
+  </div>
+</div>
