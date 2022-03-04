@@ -1,0 +1,13 @@
+.tiles {
+    display: flex;
+    gap: 4px;
+    list-style: none;
+}
+
+ul li {
+    width: 65px;
+    height: 65px;
+    background-color: #121213;
+    border: 2px solid #3a3a3c;
+}
+

@@ -1,0 +1,9 @@
+.tile-collection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 60vh;
+    flex-direction: column;
+    gap: 4px;
+}
