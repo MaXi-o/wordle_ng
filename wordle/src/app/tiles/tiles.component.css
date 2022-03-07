@@ -11,3 +11,10 @@ ul li {
     border: 2px solid #3a3a3c;
 }
 
+li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+}
+

@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, ElementRef, OnInit, ViewChild} from '@angular/core';
 
 @Component({
   selector: 'app-settings',
@@ -7,10 +7,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SettingsComponent implements OnInit {
 
-  constructor() { }
+  @ViewChild("slider") "slider": ElementRef
 
   ngOnInit(): void {
-    console.log("ITS ALIIIIVE")
+    
+  }
+  sliderValue() {
+    
   }
 
-}
+  }
+
