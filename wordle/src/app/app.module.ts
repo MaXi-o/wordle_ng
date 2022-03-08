@@ -30,7 +30,7 @@ import { FormsModule } from '@angular/forms';
     BrowserAnimationsModule,
     FormsModule
   ],
-  providers: [],
+  providers: [MainComponent],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
