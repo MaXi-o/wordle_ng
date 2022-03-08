@@ -7,13 +7,12 @@ import {Component, ElementRef, OnInit, ViewChild} from '@angular/core';
 })
 export class SettingsComponent implements OnInit {
 
-  @ViewChild("slider") "slider": ElementRef
+  lenghtWordSlider: any
 
   ngOnInit(): void {
-    
-  }
-  sliderValue() {
-    
+    if (this.lenghtWordSlider === undefined) {
+      this.lenghtWordSlider = 5
+    }
   }
 
   }
