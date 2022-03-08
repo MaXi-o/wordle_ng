@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-tile-collection',
@@ -6,6 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./tile-collection.component.css']
 })
 export class TileCollectionComponent implements OnInit {
+
+  @Input() "guess1": boolean
 
   constructor() { }
 

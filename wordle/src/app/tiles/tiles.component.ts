@@ -1,4 +1,4 @@
-import { Component, HostListener} from '@angular/core';
+import { Component, HostListener, OnInit} from '@angular/core';
 
 
 
@@ -7,12 +7,12 @@ import { Component, HostListener} from '@angular/core';
   templateUrl: './tiles.component.html',
   styleUrls: ['./tiles.component.css']
 })
-export class TilesComponent {
+export class TilesComponent implements OnInit {
   guess: any = []
   keyPressed!: string;
   @HostListener('window:keydown', ['$event']) spaceEvent(event: any){
     console.log(event.key)
-    this.keyPressed = event.key;
+    this.keyPressed = event.key.toUpperCase();
     
    if (event.keyCode >= 65 && event.keyCode <=90 && this.guess.length < 5){
     this.guess.push(this.keyPressed)
@@ -36,5 +36,8 @@ export class TilesComponent {
   guessOutput2!: string;
   guessOutput3!: string;
   guessOutput4!: string;
+
+  ngOnInit(): void {
+  }
 
 }
